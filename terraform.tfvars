@@ -32,4 +32,5 @@ instance = ["192.168.2.170", "192.168.2.230"]
 
 privateip = ["192.168.2.170", "192.168.2.230"]
 
+#Make Sure the above IP's should be in the VCN which you created the bastion service, else it returs error !
 ###above are some of the sample IP values for Instance variable and privateip variable
