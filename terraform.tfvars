@@ -16,6 +16,8 @@ subnetid = "ocid1.subnet.oc1.eu-amsterdam-1.aaaaaaaaadprjx65ot35in..............
 #Enter the port which you need to forward the traffic to the private instance/DB (private IP)
 port = "1521"
 
+prefix = "my" #If you need any particilar prefix, please fill the variable prefix. It will get added with the display name
+
 #username which you want to create a Managed SSH (for Oracle Linux the username is "opc", for ubuntu OS username will be "ubuntu")
 username = "opc"
 
