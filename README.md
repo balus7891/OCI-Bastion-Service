@@ -13,10 +13,6 @@ You can able to create a port forwarding connection to existing compute or DB re
 
 ### STEP 1.
 
-Clone the repo from GitHub.com by executing the command as follows 
-
-### STEP 2.
-
 Make sure Terraform installed in your local machine. verify using below command. 
 
 ```
@@ -40,5 +36,23 @@ Your version of Terraform is out of date! The latest version
 is 1.0.3. You can update by downloading from https://www.terraform.io/downloads.html
 
 ```
+### STEP 2.
+
+Clone the repo from GitHub.com by executing the command as follows 
+
 ### STEP 3. 
+Navigate to the directory (OCI-Bastion-Service) and update the appropriate values in **terraform.tfvars** file. Update each field carefully with the instructions mentioned as comments.
+
+If you don't want to create any **Managed SSH** session, remove the variable or comment out the variable **instance**
+Likewise you don't want to create any **SSH Port Forwarding** session, remove the variable or comment out the variable **privateip**
+
+All set !!! Now you are good to do the below.
+
+Run *terraform init*
+
+*terraform plan*
+
+*terraform apply*
+
+
 
