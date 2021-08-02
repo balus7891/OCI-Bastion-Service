@@ -40,6 +40,8 @@ is 1.0.3. You can update by downloading from https://www.terraform.io/downloads.
 
 Clone the repo from GitHub.com by executing the command as follows 
 
+git clone https://github.com/balus7891/OCI-Bastion-Service.git
+
 ### STEP 3. 
 Navigate to the directory (OCI-Bastion-Service) and update the appropriate values in **terraform.tfvars** file. Update each field carefully with the instructions mentioned as comments.
 
