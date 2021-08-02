@@ -40,3 +40,5 @@ Your version of Terraform is out of date! The latest version
 is 1.0.3. You can update by downloading from https://www.terraform.io/downloads.html
 
 ```
+### STEP 3. 
+
