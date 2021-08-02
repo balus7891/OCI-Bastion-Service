@@ -1,9 +1,9 @@
 # OCI-Bastion-Service
-The Terraform code help you to create Hussle free Oracle Cloud Infrastructure (OCI) Bastion service
+The Terraform code help you to create Hassle free Oracle Cloud Infrastructure (OCI) Bastion service. 
 
 1. Managed SSH
 
-You can create Managed SSH session to existing Compute instances in your tenancy. (Make sure the bastion plugin is enabled for the instance)
+You can create Managed SSH session to existing compute instances in your tenancy. (Make sure the bastion plugin is enabled for the instance)
 
 2. SSH Port Forwarding 
 
@@ -64,3 +64,10 @@ _To remove the service run the below_
 
 ## Conclusion
 
+The code help you easily create a managed as well as port forwarding session. T
+As you all aware that the maximum lifetime of a session is 3 hours. After 3 hour you are supposed to create another session to connect the private resources in the tenancy and it’s a time consuming activity when you create the same from the dashboard.
+
+To overcome that huddle with the above code. You just need to run only the **terraform apply** command to get back all the sessions active again.  That is the beauty of terraform scripts. 
+
+I hope the script helps 
+Balasubramannyam Sunil 
