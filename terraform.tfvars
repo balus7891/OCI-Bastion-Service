@@ -1,6 +1,6 @@
 
 
-#Necessary fields to connect to your target OCI tenancy
+#Necessary fieldsrequired for connecting to the target OCI tenancy
 ssh_public_key   = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQ.............HNNLzqU8lCX6FCOYCYBj+jqazL7vCEgxNP9UYQZO..........zPKdHzOqbYjuq3WKAUPWKmBAeFDNprFxK3ReahngPqpKAN2s0f2pM9dM6qlqgVK2l2iaXe3acbv4sxFz8ljXTtSZUQQm/YAAtPimwgQ/Plhn/Cp2AbLUaXWM7K6BZeJ8mWQXcDPFAJYefTl6IUEP41+HwG5z0EE/5vdrWZHMv1HdHuEoeTVHk+orBUm1nWV2fpNqq4S7Dk9HYgK18h3+L9pzwGPoQ== Bala_Sunil_SSHkey"
 tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaaxn3r3dh.............r4wzlahs3u76c4enhckxhy4kpaa"
 user_ocid        = "ocid1.user.oc1..aaaaaaaaxbo27v..........dil44br42ymwowq"
