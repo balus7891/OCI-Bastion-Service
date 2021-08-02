@@ -37,9 +37,9 @@ is 1.0.3. You can update by downloading from https://www.terraform.io/downloads.
 
 ```
 ### STEP 2.
-
+```
 Clone the repo from GitHub.com by executing the command as follows 
-
+```
 git clone https://github.com/balus7891/OCI-Bastion-Service.git
 
 ### STEP 3. 
