@@ -71,5 +71,5 @@ As you all aware that the maximum lifetime of a session is 3 hours. After 3 hour
 
 To overcome the huddle situation, make use of the above piece of terraform code. You just need to run only the **terraform apply** command to get back all the sessions active again.  That is the beauty of terraform scripts. 
 
-##I hope the script helps !!!
+## I hope the script helps !!!
 Balasubramannyam Sunil 
