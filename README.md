@@ -55,9 +55,9 @@ All set !!! Now you are good to **RUN** the below.
 
 *terraform apply*
 
-####Refer the output for SSH-metadata to connect !
+Refer the output for SSH-metadata to connect !
 
-To remove the service run the below
+_To remove the service run the below_
 
 *terraform destroy*
 
