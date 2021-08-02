@@ -66,10 +66,10 @@ _To remove the service run the below_
 
 ## Conclusion
 
-The code help you easily create a managed as well as port forwarding session. T
-As you all aware that the maximum lifetime of a session is 3 hours. After 3 hour you are supposed to create another session to connect the private resources in the tenancy and it’s a time consuming activity when you create the same from the dashboard.
+The code help you easily create a managed as well as port forwarding session. You can create mutiple sessions at same same as well. 
+As you all aware that the maximum lifetime of a session is 3 hours. After 3 hours the session got auto deleted and you are supposed to create another session to connect the private resources in the tenancy. it’s a time consuming activity when you create the same from the dashboard and need to perform the every 3 hours. 
 
-To overcome that huddle with the above code. You just need to run only the **terraform apply** command to get back all the sessions active again.  That is the beauty of terraform scripts. 
+To overcome the huddle situation, make use of the above piece of terraform code. You just need to run only the **terraform apply** command to get back all the sessions active again.  That is the beauty of terraform scripts. 
 
-I hope the script helps 
+##I hope the script helps !!!
 Balasubramannyam Sunil 
