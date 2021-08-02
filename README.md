@@ -43,12 +43,13 @@ Clone the repo from GitHub.com by executing the command as follows
 ### STEP 3. 
 Navigate to the directory (OCI-Bastion-Service) and update the appropriate values in **terraform.tfvars** file. Update each field carefully with the instructions mentioned as comments.
 
-If you don't want to create any **Managed SSH** session, remove the variable or comment out the variable **instance**
-Likewise you don't want to create any **SSH Port Forwarding** session, remove the variable or comment out the variable **privateip**
+If you don't want to create any **Managed SSH** session, remove the variable or comment out the variable **instance**.
 
-All set !!! Now you are good to do the below.
+Likewise you don't want to create any **SSH Port Forwarding** session, remove the variable or comment out the variable **privateip**.
 
-Run *terraform init*
+All set !!! Now you are good to **RUN** the below.
+
+*terraform init*
 
 *terraform plan*
 
