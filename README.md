@@ -11,6 +11,34 @@ You can able to create a port forwarding connection to existing compute or DB re
 
 ## How to use code ?
 
+### Method: 1. Deploy Using Oracle Resource Manager
+
+1. Click [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/balus7891/OCI-vpn-setup/releases/download/v1.1/OCI_IPSec_VPN_setup_Stack-v1.1.zip)
+
+    If you aren't already signed in, when prompted, enter the tenancy and user credentials. Cancel changes
+
+2. Review and accept the terms and conditions.
+
+3. Select the region where you want to deploy the stack.
+
+4. Follow the on-screen prompts and instructions to create the stack. Supply the required values
+
+5. After creating the stack, click **Plan** button.
+
+6. Wait for the job to be completed, and review the plan.
+
+    To make any changes, return to the Stack Details page, click **Edit Stack**, and make the required changes. Then, run the **Plan** action again. (It's a best practice always plan and verify the action before **apply**)
+
+7. If no further changes are necessary, return to the Stack Details page, click **Apply**. 
+
+
+
+### OCI Resource Manager Stack Output
+
+Once the job finsihed sucessfully you will receive the **SSH Metadata** for the sessions created as an ouput. You can see the same from the logs as well as from the **Output** tab
+
+### Method: 2. Deploy Terraform CLI
+
 ### STEP 1.
 
 Make sure Terraform installed in your local machine. verify using below command. 
