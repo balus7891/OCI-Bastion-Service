@@ -33,7 +33,7 @@ You can able to create a port forwarding connection to existing compute or DB re
 
 
 
-## OCI Resource Manager Stack Output
+#### OCI Resource Manager Stack Output
 
 Once the job finsihed sucessfully you will receive the **SSH Metadata** for the sessions created as an ouput. You can see the same from the logs as well as from the **Output** tab
 
